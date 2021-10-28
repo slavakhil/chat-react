@@ -1,0 +1,38 @@
+.dialog {
+  display: grid;
+  grid-template-columns: 42px 1fr max-content;
+  width: 100%;
+  padding: 20px 20px 20px 24px;
+
+  &.active,
+  &:hover {
+    background: #5C98F1;
+  }
+  
+  &:hover {
+    cursor: pointer;
+  }
+  
+  > img {
+    grid-row: span 2;
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+  }
+
+  .dialog-name {
+    font-weight: bold;
+    padding-left: 12px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .dialog-message {
+    grid-column: span 2;
+    padding-left: 12px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+  }
+}

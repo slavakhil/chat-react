@@ -1,0 +1,16 @@
+.dialogs {
+  grid-area: n;
+  height: 95.5vh;
+  border-right: 1px solid #88abe3;
+}
+
+.dialogs__no-dialogs {
+  margin-top: 100%;
+  text-align: center;
+  
+}
+.dialogs__no-dialogs img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

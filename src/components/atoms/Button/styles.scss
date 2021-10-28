@@ -1,0 +1,21 @@
+.buttonLogin {
+  background-color: #5c98f1;
+  border-radius: 8px;
+  border: none;
+  width: 233px;
+  height: 56px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+
+  &:hover {
+    background-color: #4583de;
+  }
+  &:active {
+    background-color: #2c6ac7;
+  }
+  &:disabled,
+  button[disabled] {
+    background-color: #d1d1d1;
+  }
+}

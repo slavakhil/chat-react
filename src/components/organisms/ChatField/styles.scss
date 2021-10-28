@@ -1,0 +1,11 @@
+.content-chat {
+  display: grid;
+  grid:
+      'chat-title' 96px
+      'chat-message-list' 1fr
+      'chat-form' 80px
+      ;
+  width: 95vh;
+  height: 95.4vh;
+  border-radius: 10px;
+}

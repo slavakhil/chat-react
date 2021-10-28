@@ -1,0 +1,31 @@
+.chat-input {
+  display: flex;
+  align-items: center;
+  grid-area: chat-form;
+  width: 99.1%;
+  border-top: 1px solid #E5E5E5;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  input {
+    flex: 1 0 0;
+    outline: none;
+    padding: 15px;
+    border-right: -20px;
+    margin-right: 15px;
+    border: none;
+    &:hover, &:focus{
+      border: none;
+    }
+  }
+
+  button {
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    flex: 0 0 40px;
+    border-radius: 90px;
+    background-color: white;
+  }
+}

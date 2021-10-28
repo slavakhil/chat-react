@@ -1,0 +1,32 @@
+%text-field {
+  display: block;
+  width: 354px;
+  height: 56px;
+  padding: 16px 16px;
+  font-size: 15px;
+  outline: 0;
+  color: #333333;
+  border: 1px solid #b3cdf8;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.text-field__input {
+  @extend %text-field;
+}
+
+.text-field__input:focus {
+  @extend %text-field;
+  border-color: #5c98f1;
+}
+
+.text-field__input:invalid {
+  @extend %text-field;
+  border-color: #fb6262;
+  background: url('../../../assets/error.svg') no-repeat 95% 50%;
+}
+
+.text-chat__input {
+  @extend %text-field;
+  border: none;
+}

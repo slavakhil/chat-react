@@ -1,0 +1,30 @@
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    'h h'
+    'n c';
+  grid-template-rows: 60px 10fr;
+  grid-template-columns: 362px 10fr;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #e5e5e5;
+}
+
+.block-no-users {
+  background: rgba(255, 255, 255, 0.5);
+  margin-left: 45%;
+  margin-right: 50%;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding-top: 16px;
+  text-align: center;
+  width: 339px;
+  height: 56px;
+  border: 1px solid #5e93e7;
+  box-sizing: border-box;
+  border-radius: 32px;
+}
